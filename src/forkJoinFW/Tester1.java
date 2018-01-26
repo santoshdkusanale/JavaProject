@@ -11,7 +11,7 @@ public class Tester1 {
 			Double[] nums = MathUtils.randomNums(arraySize);
 			double sum1 = MathUtils.arraySum(nums);
 			double sum2 = MathUtils.arraySumParallel1(nums);
-			assertThat(sum1, is(closeTo( sum2, 0.000001));
+			assertThat(sum1, is(closeTo( sum2, 0.000001)); //needs to be added
 		}
 	}
 	
